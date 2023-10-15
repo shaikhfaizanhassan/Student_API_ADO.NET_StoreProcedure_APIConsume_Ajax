@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Student_Script\Student_Script.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Student_API_ADO.NET_StoreProcedure_APIConsume_Ajax\Student_API_ADO.NET_StoreProcedure_APIConsume_Ajax.csproj" />
+  </ItemGroup>
+
+</Project>

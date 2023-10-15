@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Student_API_ADO.NET_StoreProcedure_APIConsume_Ajax.props" />
+</Project>

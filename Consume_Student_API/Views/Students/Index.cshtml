@@ -1,0 +1,115 @@
+﻿
+@{
+    ViewData["Title"] = "Students";
+}
+<h1>Student List</h1>
+<table class="table" id="studentTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Contact</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+
+<div class="container">
+    <div id="studentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Student Details</h2>
+            <table>
+                <tr>
+                    <th>ID:</th>
+                    <td id="studentId"></td>
+                </tr>
+                <tr>
+                    <th>Name:</th>
+                    <td id="studentName"></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td id="studentEmail"></td>
+                </tr>
+                <tr>
+                    <th>Password:</th>
+                    <td id="StudentPassword"></td>
+                </tr>
+                <tr>
+                    <th>Contact:</th>
+                    <td id="StudentContact"></td>
+                </tr>
+
+
+                <!-- Add more rows for other details -->
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<button id="showCreateModalButton" class="btn btn-primary">Create Student</button>
+
+<div id="createStudentModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeCreateModal">&times;</span>
+        <h2>Create Student</h2>
+        <form id="createStudentForm">
+            <label for="stName">Name:</label>
+            <input type="text" id="stName" name="stName" class="form-control">
+            <br>
+            <label for="stEmail">Email:</label>
+            <input type="text" id="stEmail" name="stEmail" class="form-control">
+            <br>
+            <label for="stPassword">Password:</label>
+            <input type="text" id="stPassword" name="stPassword" class="form-control">
+            <br>
+            <label for="stContact">Contact:</label>
+            <input type="text" id="stContact" name="stContact" class="form-control">
+
+            <!-- Add more form fields for other student details -->
+            <button type="submit" class="btn btn-primary">Create Student</button>
+        </form>
+    </div>
+</div>
+
+
+<div id="editStudentModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeEditModal">&times;</span>
+        <h2>Edit Student Details</h2>
+        <form id="editStudentForm" data-id="id">
+            <label>Student ID</label>
+            <input type="text" readonly id="studentId1" class="form-control" name="studentId1">
+            <br />
+            <label>Student Name</label>
+            <input type="text" value="" id="studentName1" class="form-control" name="studentName1">
+            <br />
+            <label>Student Email</label>
+            <input type="text" id="studentEmail1" class="form-control" name="studentEmail1">
+            <br />
+            <label>Student Password</label>
+            <input type="text" id="StudentPassword1" class="form-control" name="StudentPassword1">
+            <br />
+            <label>Student Contact</label>
+            <input type="text" id="StudentContact1" class="form-control" name="StudentContact1">
+
+            <!-- Add more form fields for other details -->
+
+            <button type="submit" id="updateStudentButton" class="btn btn-primary">Update</button>
+        </form>
+    </div>
+</div>
+
+
+
+@section JS_Section{
+   <script src="~/Student_Script/Student_Script.js"></script>
+}

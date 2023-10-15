@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_API_ADO.NET_StoreProcedure_APIConsume_Ajax", "Student_API_ADO.NET_StoreProcedure_APIConsume_Ajax\Student_API_ADO.NET_StoreProcedure_APIConsume_Ajax.csproj", "{9D596E1C-10AA-4048-8737-DF039719BBD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consume_Student_API", "Consume_Student_API\Consume_Student_API.csproj", "{A48D6C94-0A73-4FD8-ACE7-9C6FCF4ED3E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D596E1C-10AA-4048-8737-DF039719BBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D596E1C-10AA-4048-8737-DF039719BBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D596E1C-10AA-4048-8737-DF039719BBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D596E1C-10AA-4048-8737-DF039719BBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48D6C94-0A73-4FD8-ACE7-9C6FCF4ED3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48D6C94-0A73-4FD8-ACE7-9C6FCF4ED3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48D6C94-0A73-4FD8-ACE7-9C6FCF4ED3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48D6C94-0A73-4FD8-ACE7-9C6FCF4ED3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36947851-0F2E-46EF-8355-64294FCFA357}
+	EndGlobalSection
+EndGlobal
